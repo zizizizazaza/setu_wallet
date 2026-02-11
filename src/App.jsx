@@ -19,6 +19,7 @@ import AddNetworkPage from './pages/AddNetworkPage';
 import LockedPage from './pages/LockedPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import FluxDetailsPage from './pages/FluxDetailsPage';
+import OnboardingPage from './pages/OnboardingPage';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/welcome" element={<WelcomePage />} />
+            <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/recovery" element={<RecoveryPhrasePage />} />
             <Route path="/import" element={<ImportPhrasePage />} />
             <Route path="/confirm" element={<ConfirmPhrasePage />} />

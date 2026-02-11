@@ -8,6 +8,13 @@ const TokenListPage = () => {
     const { currentAccount, currentNetwork, isBalanceVisible, setIsBalanceVisible, language } = useWallet();
     const t = translations[language];
 
+    React.useEffect(() => {
+        const hasSeenOnboarding = localStorage.getItem('hasSeenOnboarding');
+        if (!hasSeenOnboarding) {
+            navigate('/onboarding');
+        }
+    }, [navigate]);
+
     // Current requirement: Only FLUX
     const tokens = [
         {
