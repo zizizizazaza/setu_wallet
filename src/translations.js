@@ -136,7 +136,15 @@ export const translations = {
         pending: "Pending",
         finalized: "Finalized",
         failed: "Failed",
-        today: "Today"
+        today: "Today",
+        fluxIntro: "What is Flux?",
+        fluxTitle: "About Flux",
+        fluxDefinition: "Flux is the soul of the Cetu system, generated through unique POCW (Proof of Computing Work) events.",
+        fluxConsumption: "Used as the key to trigger system-level computing resources and participate in ecosystem governance.",
+        fluxNature: "Non-transferable. Bound to your identity, ensuring genuine reputation.",
+        fluxInitial: "U64 Precision (1 Flux = 10^32). Guaranteed system integrity.",
+        fluxPhilosophyTitle: "System Vision",
+        fluxPhilosophyContent: "Cetu is not just a wallet; it's a reputation-driven computing network. Flux is the fuel for this integrity machine."
     },
     Chinese: {
         // General
@@ -273,6 +281,14 @@ export const translations = {
         pending: "确认中",
         finalized: "已完成",
         failed: "已失败",
-        today: "今天"
+        today: "今天",
+        fluxIntro: "什么是 Flux？",
+        fluxTitle: "关于 Flux",
+        fluxDefinition: "Flux 是 Cetu 系统的灵魂，通过独特的 POCW (算力证明) 机制产生。",
+        fluxConsumption: "作为调用系统级算力资源、参与生态治理与出块的核心凭证。",
+        fluxNature: "不可转让。与身份深度绑定，确保信誉的真实性与唯一性。",
+        fluxInitial: "U64 高精度存储 (1 Flux = 10^32)。系统诚信的基石。",
+        fluxPhilosophyTitle: "系统愿景",
+        fluxPhilosophyContent: "Cetu 不仅仅是一个钱包，它是一个由信誉驱动的算力网络。Flux 是驱动这台“诚信机器”的燃料。"
     }
 };

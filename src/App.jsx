@@ -18,6 +18,7 @@ import TokenDetailsPage from './pages/TokenDetailsPage';
 import AddNetworkPage from './pages/AddNetworkPage';
 import LockedPage from './pages/LockedPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
+import FluxDetailsPage from './pages/FluxDetailsPage';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
             <Route path="/add-network" element={<AddNetworkPage />} />
             <Route path="/locked" element={<LockedPage />} />
             <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+            <Route path="/flux-details" element={<FluxDetailsPage />} />
           </Routes>
 
         </div>
